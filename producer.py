@@ -24,3 +24,5 @@ def page_create():
                 user = change['performer']['user_text']
                 is_a_bot = change['performer']['user_is_bot']
                 send_message('{} is {} at {}'.format(user,is_a_bot,date_hour))
+
+page_create()
